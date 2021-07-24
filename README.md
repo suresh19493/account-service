@@ -1,11 +1,11 @@
 Account Service
 1. Download project and unzip
-2. Goto inside directory and run 'mvn install'
+2. Goto inside the project directory and run 'mvn install'
 3. Currently, The project connects to postgreSQL, If you want change to MySQL then 
-	a. Uncomment mysql properties in application.properties
-	b. Comment postgresql properties in application.properties
-	c. Comment postgresql dependency in pom.xml
-	d. Uncomment mysql dependency in pom.xml
+	`a. Uncomment mysql properties in application.properties
+	 b. Comment postgresql properties in application.properties
+	 c. Comment postgresql dependency in pom.xml
+	 d. Uncomment mysql dependency in pom.xml`
 
 5. Connect to database and Run the SQL scripts inside the project based on the database you choose(MySQL, PostgreSQL).
 6. Start the server using the command 'mvn spring-boot:run'
