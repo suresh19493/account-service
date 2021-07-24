@@ -22,7 +22,7 @@
 
 7. Open browser and type the below url
     a. Get all accounts endpoint
-    ```[http://localhost:8080/account/all](http://localhost:8080/account/all)```
+    [http://localhost:8080/account/all](http://localhost:8080/account/all)
     b.Get Transactions by account number
     ```http://localhost:8080/account/transactions/{accountNumber}
     example: http://localhost:8080/account/transactions/795809719```
